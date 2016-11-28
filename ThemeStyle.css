@@ -1,0 +1,145 @@
+body
+{
+	background-color: white;
+	background-image: url(ThemeImages/Background.jpg);
+	background-repeat: repeat-x;
+	background-attachment:fixed;
+	color: black;
+	margin:0px;
+	font-family: helvetica, "lucida console", sans-serif;
+}
+
+.headlinediv
+{
+	font-size: 32px;
+	font-weight: bold;
+	border-bottom:1px solid gray;
+}
+
+.rootpagecommentdiv
+{
+	font-size: 13px;
+	margin: 20px;
+}
+
+.content
+{
+	margin-left:220px;
+	margin-right:20px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.sidebar
+{
+	top: 0px;
+	left: 0px;
+	width: 180px;
+	height: 100%;
+	color: black;
+	background-color: white;
+	background-repeat: repeat-y;
+	background-image: url(ThemeImages/SideBarBackground.jpg);
+	position: fixed;
+	padding-left:20px;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.sidebarelement
+{
+	margin-top:16px;
+}
+
+.functiondiv
+{
+	font-size: 24px;
+	width:100%;
+	margin:20px;
+}
+
+h1
+{
+	font-size: 24px;
+	border-bottom:1px solid gray;
+}
+
+h2
+{
+	font-size: 20px;
+	border-bottom:1px solid gray;	
+}
+
+.formattedtable
+{
+	width: 100%;
+	border-color: lightgray;
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+	empty-cells: show;
+	border-collapse:collapse;
+}
+
+.formattedtable td
+{
+	border-color: lightgray;
+	border-width: 1px 1px 0 0;
+	border-style: solid;
+}
+
+.formattedtable th
+{
+	border-color: lightgray;
+	border-width: 1px 1px 0 0;
+	border-style: solid;
+	text-align:left;
+	background-color:#F5F5F5;
+}
+
+.formattedtableseperator
+{
+	font-style: italic;
+	font-weight:bold;
+}
+
+.subsection
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.advertisementfooter
+{
+	font-size: 14px;
+	text-align:center;
+	width:100%;
+	margin-top: 40px;
+}
+
+.diagramimagediv
+{
+}
+
+A:link
+{
+    text-decoration: none;
+    color: #222;
+}
+
+A:visited
+{
+    text-decoration: none;
+    color: #222;
+}
+
+A:active
+{
+    text-decoration: none;
+    color: #0000FF;
+}
+
+A:hover
+{
+    text-decoration: none; 
+    color: #555588;
+}
